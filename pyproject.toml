@@ -12,12 +12,13 @@ readme = "README.md"
 requires-python = ">=3.10"
 
 [project.urls]
-Home = "https://github.com/xinetzone/sphinx-demo"
+Home = "https://github.com/xinetzone/python-office"
 
 [project.optional-dependencies]
 doc = [
   "ablog",
   "myst-nb",
+  "openpyxl",
   "sphinx-thebe",
   "sphinx-copybutton",
   "sphinx-comments",

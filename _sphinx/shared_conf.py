@@ -50,12 +50,15 @@ extensions = [
     # "sphinx.ext.todo",
     # "sphinxcontrib.bibtex",
     # "sphinx_togglebutton",
-    # "sphinx.ext.viewcode",
-    # "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.autodoc",
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.napoleon',
     # "sphinx.ext.doctest",
     # "sphinx_design",
     # "sphinx.ext.ifconfig",
-    # "sphinx_automodapi.automodapi",
+    "sphinx_automodapi.automodapi",
     # "sphinxext.opengraph",
 ]
 
